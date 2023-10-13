@@ -6,7 +6,7 @@
 
 
 header {
-    padding: 50px 0;
+    padding: 50px 0 0;
 }
 
 .container {
@@ -17,6 +17,7 @@ header {
 .cell-body {
     display: flex;
     flex-wrap: wrap;
+    padding: 50px 0;
 }
 
 .cell {
@@ -26,4 +27,9 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+}
+
+.bg-aqua {
+    background-color: aqua;
 }
