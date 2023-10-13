@@ -4,14 +4,34 @@
     box-sizing: border-box;
 }
 
+.app {
+    background-image: url(https://media.istockphoto.com/id/1072972974/vector/bomb-silhouettes-seamless-pattern-military-weapon-background.jpg?s=170667a&w=0&k=20&c=mwQhDCiky3DH8r49asgktYrAL2wBkeItH1gzHcYvomM=) ;
+    
+}    
+
 
 header {
     padding: 50px 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
 
 .container {
     max-width: 800px;
     margin: 0 auto;
+}
+
+.button-style {
+    border: none;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(4, 4, 4);
+    box-shadow: 1px 3px 5px #413f8b;
 }
 
 .cell-body {
@@ -28,6 +48,10 @@ header {
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.932);
+    border: 1px solid rgba(14, 112, 216, 0.241);
+    box-shadow: 5px 10px 18px #888888;
 }
 
 .cell-transparent {
