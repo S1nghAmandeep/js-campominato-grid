@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    padding: 50px 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.cell-body {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cell {
+    aspect-ratio: 1;
+    border: 1px solid black;
+    width: calc(100% / 10);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
