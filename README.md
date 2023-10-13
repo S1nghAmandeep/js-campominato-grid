@@ -14,3 +14,13 @@
         - assegnare eventlistner al variabile (click)
             - applicare la classe bg-azzuro
 
+# Bonus
+
+- creare una variabile e recuperare elemento(select) dal dom
+    - SE è stata selezionato difficolta 3
+        - creare ciclo for da 1/81
+        - applicare la classe cell-three
+    - ALTRIMENTI SE è stata selezionata difficoltò 2
+        - creare ciclo for da 1/49
+        - applicare la classe cell-two
+    - ALTRIMENTI 
