@@ -18,5 +18,17 @@ playBtnElement.addEventListener('click', function () {
         bodyCellElement.innerHTML += cellsString;
     }
     
+    // recuprero celle dal dom
+    const cellsDomElements = document.querySelectorAll('.cell');
+    // console.log(cellsDomElements);
 
+    // ciclo del array del dom (celle)
+    for (let i = 0; i < cellsDomElements.length; i++){
+        const selectedCellElement = cellsDomElements[i];
+
+        selectedCellElement.addEventListener('click', function () {
+            selectedCellElement.classList.add('bg-aqua');
+            console.log(selectedCellElement.innerHTML);
+        })
+    }
 })
